@@ -71,16 +71,6 @@ resource "oci_core_security_list" "public" {
     }
   }
 
-  # Oracle (ŠO•”‚©‚ç)
-  ingress_security_rules {
-    protocol = "6"
-    source   = var.admin_cidr
-    tcp_options {
-      min = 1521
-      max = 1521
-    }
-  }
-
   # Oracle (VMŠÔ)
   ingress_security_rules {
     protocol = "6"
