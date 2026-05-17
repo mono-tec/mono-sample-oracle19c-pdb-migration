@@ -1,4 +1,4 @@
-# oracle19c-pdb-migration-lab
+# mono-sample-oracle19c-pdb-migration
 
 Oracle Database 19c における
 PDBクローンによる移行検証環境を構築するためのリポジトリです。
